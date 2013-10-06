@@ -44,6 +44,11 @@ h2 {
 	.wedding_info {
 		font-size: 2em;
 	}
+
+	.coming_soon {
+		font-size: 2em;
+	}
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
@@ -58,5 +63,9 @@ h2 {
    .wedding_info {
    		font-size: 3em;
    }
+
+   .coming_soon {
+	 font-size: 3em;
+	 }
 
 }
