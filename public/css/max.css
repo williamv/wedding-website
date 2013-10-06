@@ -1,0 +1,13 @@
+body {
+	font: 100%/1.5 Cambria, Georgia, serif;
+	margin: 0 auto;
+	padding: 1em 20%; /*temporary*/
+}
+
+@media only screen and (min-width: 1200px) {
+	/* styles for wide screens */
+}
+
+@media only screen and (max-width: 650px) {
+	font-color: pink;/* styles for narrow screens */
+}
