@@ -1,13 +1,24 @@
 body {
-	font: 100%/1.5 Cambria, Georgia, serif;
+	font: 1 em; Cambria, Georgia, serif; 
 	margin: 0 auto;
 	padding: 1em 20%; /*temporary*/
 }
 
 @media only screen and (min-width: 1200px) {
-	/* styles for wide screens */
+
 }
 
-@media only screen and (max-width: 650px) {
-	font-color: pink;/* styles for narrow screens */
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
+   h1 {
+      font-size: 5em;
+   }
+
+   h2 {
+      font-size: 4em;
+   }
+
+   .wedding_info {
+   		font-size: 3em;
+   }
+
 }
