@@ -1,11 +1,49 @@
+html { 
+	font-size: 100%;
+	font-family: "Verdana", sans-serif;
+	}
+
 body {
-	font: 1 em; Cambria, Georgia, serif; 
-	margin: 0 auto;
-	padding: 1em 20%; /*temporary*/
+	padding: 1em 15%; /*temporary*/
 }
 
-@media only screen and (min-width: 1200px) {
+h2 {
+	padding-bottom: auto;
+	margin-bottom: auto;
+}
 
+.subsection {
+	margin-top: none;
+	padding-top: none;
+	padding-bottom: .25em;
+}
+
+.wedding_info {
+	border-top: none;
+	margin: auto;
+	padding-bottom: .25em;
+	padding-top: auto;
+	border: none;
+}
+
+.coming_soon {
+	margin-top: none;
+	padding-top: none;
+	padding-bottom: .25em;
+	color: #505050;
+}
+
+@media only screen and (min-device-width: 481px) (max-device-width: 1024) {
+	h1 {
+		font-size: 4em;
+	}
+
+	h2 {font-size: 3em;
+	}
+
+	.wedding_info {
+		font-size: 2em;
+	}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
