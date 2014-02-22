@@ -1,6 +1,4 @@
-html { 
-	font-size: 100%;
-	}
+
 
 body {
 	padding: 1em 15%; /*temporary*/
@@ -34,37 +32,37 @@ h2 {
 
 @media only screen and (min-device-width: 481px) (max-device-width: 1024) {
 	h1 {
-		font-size: 4em;
+		font-size: 6em;
 	}
 
-	h2 {font-size: 3em;
+	h2 {font-size: 5em;
 	}
 
 	.wedding_info {
-		font-size: 2em;
+		font-size: 4em;
 	}
 
 	.coming_soon {
-		font-size: 2em;
+		font-size: 4em;
 	}
 
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px) {
    h1 {
-      font-size: 5em;
+      font-size: 6em;
    }
 
    h2 {
-      font-size: 4em;
+      font-size: 5em;
    }
 
    .wedding_info {
-   		font-size: 3em;
+   		font-size: 4em;
    }
 
    .coming_soon {
-	 font-size: 3em;
+	 font-size: 4em;
 	 }
 
 }
