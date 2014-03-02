@@ -3,6 +3,12 @@ img{
 	height: auto;
 }
 
+.container
+	{
+		width: 800px;
+		max-width: 90%;
+	}
+
 body {
 	padding: 1em 15%; /*temporary*/
 }
