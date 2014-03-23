@@ -24,7 +24,6 @@ li {
 a {
     color: rgb(0,0,166);
     font-weight: 500;
-    border-bottom: 1px dotted;
     text-decoration: none;
 }
 a:visited {
@@ -79,6 +78,10 @@ h2 {
 	}
 
 	.coming_soon {
+		font-size: 4em;
+	}
+
+	ul {
 		font-size: 4em;
 	}
 
